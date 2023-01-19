@@ -1,0 +1,7 @@
+C:\Users\tyisb\source\repos\Mission 2 Assignment\Mission 2 Assignment\bin\Debug\Mission 2 Assignment.exe.config
+C:\Users\tyisb\source\repos\Mission 2 Assignment\Mission 2 Assignment\bin\Debug\Mission 2 Assignment.exe
+C:\Users\tyisb\source\repos\Mission 2 Assignment\Mission 2 Assignment\bin\Debug\Mission 2 Assignment.pdb
+C:\Users\tyisb\source\repos\Mission 2 Assignment\Mission 2 Assignment\obj\Debug\Mission 2 Assignment.csproj.AssemblyReference.cache
+C:\Users\tyisb\source\repos\Mission 2 Assignment\Mission 2 Assignment\obj\Debug\Mission 2 Assignment.csproj.CoreCompileInputs.cache
+C:\Users\tyisb\source\repos\Mission 2 Assignment\Mission 2 Assignment\obj\Debug\Mission 2 Assignment.exe
+C:\Users\tyisb\source\repos\Mission 2 Assignment\Mission 2 Assignment\obj\Debug\Mission 2 Assignment.pdb
