@@ -25,9 +25,12 @@ namespace Mission_2_Assignment
             // Roll dice and populate array
             for (int i = 0; i < numRolls; i++)
             {
-                int roll = rnd.Next(11);
-                rollResults[roll]++;
-                rollResultsWithAsterisk[roll] = rollResultsWithAsterisk[roll] + "*";
+                //int roll = rnd.Next(11);
+                int roll1 = rnd.Next(6);
+                int roll2 = rnd.Next(6);
+                int sum = roll1 + roll2;
+                rollResults[sum]++;
+                rollResultsWithAsterisk[sum] = rollResultsWithAsterisk[sum] + "*";
             }
             
 
