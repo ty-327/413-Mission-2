@@ -13,6 +13,7 @@ namespace Mission_2_Assignment
             //Declare Variables and Arrays
             int numRolls = 0;
             int[] rollResults = new int[11];
+            string[] rollResultsWithAsterisk = new string[11];
             Random rnd = new Random();
 
             // Get user input
@@ -26,6 +27,7 @@ namespace Mission_2_Assignment
             {
                 int roll = rnd.Next(11);
                 rollResults[roll]++;
+                rollResultsWithAsterisk[roll] = rollResultsWithAsterisk[roll] + "*";
             }
             
 
@@ -37,11 +39,7 @@ namespace Mission_2_Assignment
             
             for (int i = 0; i < rollResults.Length; i++)
             {
-                Console.WriteLine((i + 2).ToString() + ": ");
-                for (int j = 0; j < rollResults[i]; j++)
-                {
-                    Console.WriteLine((i + 2).ToString() + ": " + rollResults[i]);
-                }
+                Console.WriteLine((i + 2).ToString() + ": " + rollResultsWithAsterisk[i]);
             }
 
             Console.WriteLine("\nThank you for using the dice simulator. Goodbye!");
